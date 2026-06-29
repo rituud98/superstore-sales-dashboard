@@ -1,16 +1,11 @@
-# 🛒 Superstore Sales Analytics Dashboard
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-## 📌 Project Overview
+#Superstore Sales Analytics Dashboard
+##Project Overview
 
 An end-to-end data analytics project analyzing 4 years of retail sales data from a US-based superstore. The project covers data cleaning in Excel, business insights using SQL (PostgreSQL), and an interactive dashboard built in Power BI — simulating a real-world BI analyst workflow.
 
 ---
 
-## 🎯 Business Problem
+##Business Problem
 
 The superstore management wants to understand:
 - Which regions, categories, and products are driving the most revenue?
@@ -20,7 +15,7 @@ The superstore management wants to understand:
 
 ---
 
-## 🛠️ Tools Used
+##Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -30,7 +25,7 @@ The superstore management wants to understand:
 
 ---
 
-## 📂 Dataset
+##Dataset
 
 - **Source:** [Superstore Dataset — Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 - **Rows:** 9,994 orders
@@ -38,7 +33,7 @@ The superstore management wants to understand:
 
 ---
 
-## 🧹 Step 1 — Data Cleaning (Excel)
+##Step 1 — Data Cleaning (Excel)
 
 - Formatted `Order Date` and `Ship Date` columns to proper Date format
 - Added **Delivery Days** column: `=DATEDIF(Order Date, Ship Date, "D")`
@@ -49,7 +44,7 @@ The superstore management wants to understand:
 
 ---
 
-## 🔍 Step 2 — SQL Analysis (PostgreSQL)
+##Step 2 — SQL Analysis (PostgreSQL)
 
 Key business questions answered using SQL:
 
@@ -90,7 +85,7 @@ ORDER BY Total_Profit DESC;
 
 ---
 
-## 📊 Step 3 — Power BI Dashboard
+##Step 3 — Power BI Dashboard
 
 ### KPI Cards
 | Metric | Value |
@@ -115,7 +110,7 @@ ORDER BY Total_Profit DESC;
 
 ---
 
-## 💡 Key Insights
+##Key Insights
 
 - **Technology** is the top-selling category at **₹256K** in total sales
 - **West region** leads with **29%** of total sales (₹187K), while South is lowest at 18%
@@ -126,13 +121,13 @@ ORDER BY Total_Profit DESC;
 
 ---
 
-## 📁 Project Structure
+##Project Structure
 
 ```
 Superstore-Sales-Dashboard/
 │
 ├── data/
-│   └── superstore_clean.csv
+│   └── superstore.csv
 │
 ├── sql/
 │   └── superstore_queries.sql
@@ -150,20 +145,13 @@ Superstore-Sales-Dashboard/
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](screenshots/dashboard_preview.png)
+![Dashboard Preview](<img width="1366" height="768" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/fb601732-9a0f-413b-a5a8-f4b582d6f56d" />
+)
 
 ---
 
-## 👩‍💻 Author
 
-**Ritu Das**
-- 📧 dasritu056@gmail.com
-- 💼 [LinkedIn](#)
-- 🐙 [GitHub](#)
-
----
-
-## 🚀 How to Run This Project
+##How to Run This Project
 
 1. Download the `superstore_clean.csv` from the `data/` folder
 2. Import into PostgreSQL using the SQL script in `sql/` folder
