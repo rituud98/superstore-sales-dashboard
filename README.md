@@ -129,8 +129,8 @@ ORDER BY Total_Profit DESC;
 
 ## How to Run This Project
 
-1. Download the `superstore_clean.csv` from the `data/` folder
-2. Import into PostgreSQL using the SQL script in `sql/` folder
+1. Download the `superstore.csv` file
+2. Import into PostgreSQL using the SQL script in `superstore_queries` file 
 3. Open `Superstore_Sales_Dashboard.pbix` in Power BI Desktop
 4. Refresh the data source to point to your local CSV file
 5. Explore the interactive dashboard!
