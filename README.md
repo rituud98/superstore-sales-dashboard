@@ -121,28 +121,6 @@ ORDER BY Total_Profit DESC;
 
 ---
 
-## Project Structure
-
-```
-Superstore-Sales-Dashboard/
-│
-├── data/
-│   └── superstore.csv
-│
-├── sql/
-│   └── superstore_queries.sql
-│
-├── dashboard/
-│   └── Superstore_Sales_Dashboard.pbix
-│
-├── screenshots/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
-
----
-
 ## Dashboard Preview
 
 ![Dashboard Preview](screenshots/Dashboard_preview.png)
