@@ -145,8 +145,7 @@ Superstore-Sales-Dashboard/
 
 ## Dashboard Preview
 
-![image](<img width="876" height="495" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/40ebceb4-8f6b-4b6a-973f-113efb9c9a2d" />
-)
+![Dashboard Preview](screenshots/Dashboard_preview.png)
 
 ---
 
