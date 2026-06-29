@@ -122,7 +122,7 @@ ORDER BY Total_Profit DESC;
 ---
 
 ## Dashboard Preview
-![image](<img width="876" height="495" alt="Dashboard_preview" src="https://github.com/user-attachments/assets/f52fc5d3-b34d-4e92-b8fb-ab56be41d01c" />
+![image](<img width="876" height="495" alt="image" src="https://github.com/user-attachments/assets/484bed1a-5fdd-49d3-9c78-ea3ee2c8b201" />
 )
 
 ---
