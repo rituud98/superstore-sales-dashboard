@@ -1,4 +1,4 @@
-#Superstore Sales Analytics Dashboard
+# Superstore Sales Analytics Dashboard
 ##Project Overview
 
 An end-to-end data analytics project analyzing 4 years of retail sales data from a US-based superstore. The project covers data cleaning in Excel, business insights using SQL (PostgreSQL), and an interactive dashboard built in Power BI — simulating a real-world BI analyst workflow.
